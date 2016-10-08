@@ -1,4 +1,4 @@
-FROM "williamyeh/ansible:ubuntu16.04"
+FROM williamyeh/ansible:ubuntu16.04
 
 RUN apt-get update
 RUN apt-get -y install php
